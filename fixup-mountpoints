@@ -1277,8 +1277,7 @@ case "$DEVICE" in
             -e 's block/bootdevice/by-name/xbl mmcblk0p50 ' \
             -e 's block/bootdevice/by-name/xbl_config mmcblk0p15 ' \
             -e 's block/bootdevice/by-name/xblbak mmcblk0p51 ' \
-
-
+            "$@"
 	;;
 
     *)
